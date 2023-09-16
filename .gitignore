@@ -1,15 +1,35 @@
-*.iml
-.gradle
+# Android directories
+/app/build/
+/captures/
+/gradle/
+/.gradle/
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
+
+# Android Studio
+/.idea/
+/.iml
+/.externalNativeBuild
+/.cxx/
+
+# User-specific files
+/.DS_Store
+/.idea/
+/.gradle/
+/captures/
+/build/
+
+# Generated files
+*.o
+*.class
+*.jar
+*.aar
+*.apk
+*.ap_
+
+# Others
+.gradle/
+/local.properties
 /.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/libraries
